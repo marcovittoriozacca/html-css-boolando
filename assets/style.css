@@ -56,7 +56,6 @@ main{
 main div.row{
     display: flex;
     justify-content: space-between;
-    /* margin-bottom: 3em; */
 
 }
 main div.row{
@@ -144,6 +143,17 @@ main div.card figure span.heart:hover{
 main div.card figure span{
     position: absolute;
 }
+
+
+div.card figure img:first-of-type{
+    position: absolute;
+    top:0;
+}
+div.card figure img:first-of-type:hover{
+    opacity: 0;
+    cursor: pointer;
+}
+
 
 main div.card figure span.discount,
 main div.card figure span.sustainability{
