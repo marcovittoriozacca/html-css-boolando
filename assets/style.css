@@ -3,3 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html{
+    font-family: sans-serif;
+}
+
+header{
+    background-color: #FF6801;
+    position: fixed;
+    width: 100%;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+header nav div.container figure img{
+    display: block;
+    width: 120px;
+    padding-block: 10px;
+}
+
+header nav div.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav div.container div{
+    display: flex;
+    gap: 0.5em;
+}
+header nav a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
