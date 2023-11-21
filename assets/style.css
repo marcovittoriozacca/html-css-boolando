@@ -113,22 +113,48 @@ main div.card:nth-of-type(6) div.card-info span.price::after{
     content: "";
 }
 
+
 main div.card figure{
     position: relative;
+    
 }
 
 main div.card figure span.heart{
     font-size: 1.5rem;
     background-color: white;
     padding: 0.3em 0.5em;
-    position: absolute;
+
     top: 0.5em;
     right:0;
+    z-index: 2;
 }
 
 main div.card figure span.heart:hover{
     color: red;
     cursor: pointer;
+}
+
+main div.card figure span{
+    position: absolute;
+}
+
+main div.card figure span.discount,
+main div.card figure span.sustainability{
+    bottom: 3em;
+    color: white;
+    font-weight: bold;
+    font-size: 0.8em;
+    padding: 0.2em;
+}
+
+main div.card figure span.discount{
+    background-color: red;
+
+}
+
+main div.card figure span.sustainability{
+    background-color: green;
+    left: 10%;
 }
 
 footer{
