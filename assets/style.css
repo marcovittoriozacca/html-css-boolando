@@ -31,6 +31,7 @@ img{
 header nav div.container figure img{
     width: 120px;
     padding-block: 10px;
+    transform: translate(-50%);
 }
 
 header nav div.container{
@@ -77,10 +78,12 @@ main div.container div.card figure img{
     height: 100%;
 }
 
+/* card info first span */
 main div.card span:first-of-type{
     font-size: 0.8rem;
     text-transform: capitalize;
 }
+
 main div.card h5{
     text-transform: uppercase;
 }
@@ -121,6 +124,7 @@ main div.card:nth-of-type(5) div.card-info span.price::after{
 main div.card:nth-of-type(6) div.card-info span.price::after{
     content: "";
 }
+
 
 main div.card figure{
     position: relative;
